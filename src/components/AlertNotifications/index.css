@@ -1,0 +1,63 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.app-head {
+  margin-bottom: 40px;
+}
+
+.notification-head {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.icon {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.notification-para {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.close {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.icon-content {
+  display: flex;
+}
+
+.content {
+  margin-right: 20px;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
